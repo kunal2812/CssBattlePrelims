@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.container
+{
+	width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    background: #e5e9ed;
+    display: flex;
+    justify-content: center;
+}
+.scaler
+{
+	transform: scale(0.9);
+	margin: 15px;
+	display: grid;
+	grid-gap: 20px;
+}
+.card
+{
+	padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #6e6c6c6b;
+    color: white;
+}
+.div1
+{
+	background: #171f2c;
+}
+.div2
+{
+	background: #171f2c;
+}
+.div3
+{
+	background: #171f2c;
+}
+.div4
+{
+	background: #171f2c;
+	grid-column: 2/2;
+    grid-row: 2/3;
+}
+.div5
+{
+	background: #171f2c;
+	grid-column: 1/2;
+    grid-row: 3/3;
+}
+.card-header
+{
+	display: flex;
+}
+.imgbox
+{
+	margin-right: 15px;
+}
+.imgbox img
+{
+	border-radius: 50%;
+	width: 30px;
+	border: 2px solid #cec5c5;
+}
+.card-title
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-title p
+{
+	margin: 0;
+}
+.card-title .name
+{
+	color: hsl(0, 0%, 81%);
+    font-size: 14px;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+.card-title .designation
+{
+	color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    font-size: 13px;
+}
+.review h4
+{
+	font-size: 20px;
+	color: #F3DEFF;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 13px;
+}
+.review p
+{
+	font-size: 14px;
+    color: #F3DEFF;
+    font-weight: 500;
+    opacity: 50%;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 1000px)
+{
+	.scaler
+	{
+		transform: scale(0.7);
+	}
+}
+@media only screen and (max-width: 800px)
+{
+	.scaler
+	{
+		transform: scale(0.6);
+	}
+}
+@media only screen and (max-width: 600px)
+{
+	.scaler
+	{
+		transform: scale(0.8);
+	}
+}
